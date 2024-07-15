@@ -3,6 +3,7 @@ import Login from "./pages/Login";
 import AuthLayout from "./layout/AuthLayout";
 import ProtectedRoutes from "./layout/ProtectedRoutes";
 import Product from "./pages/Product";
+import Admin from "./pages/Admin";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -20,6 +21,7 @@ function App() {
 
       <Route path='/products' element={<ProtectedRoutes />}>
             <Route index element={<Product />} />
+            <Route path='admin' element={<Admin />} />
       </Route>
 
       </Routes>

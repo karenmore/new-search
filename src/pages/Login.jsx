@@ -70,18 +70,11 @@ const Login = () => {
           <input
             type="submit"
             value="Iniciar Sesion"
-            className="bg-cyan-500 hover:bg-cyan-600 text-sm uppercase p-2 font-black text-white cursor-pointer disabled:opacity-10"
+            className="bg-blue-700 hover:bg-blue-800 text-sm uppercase p-2 font-black text-white cursor-pointer disabled:opacity-10"
             disabled={!isValid()}
           />
         </form>
-        <nav className="mt-10 lg:flx lg:justify-between">
-          <Link className="block text-center my-5 text-gray-500" to="/forget-password">
-            Olvide mi contraseña
-          </Link>
-          <Link className="block text-center my-5 text-gray-500" to="/register">
-            Registrar una cuenta
-          </Link>
-        </nav>
+
       </div>
     </>
   )

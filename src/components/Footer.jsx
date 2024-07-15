@@ -1,9 +1,9 @@
 const Footer = () => {
     return (
         <footer className="py-10">
-            <p className="text-center font-bold">Suaf
+            <p className="text-center font-bold">Venezuela
             {' '}
-            <span className="text-cyan-500">Venezuela</span>
+            <span className="text-blue-500">2024</span>
             </p>
         </footer>
     )

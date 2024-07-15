@@ -14,7 +14,7 @@ export const authenticateUser = createAsyncThunk(
       },
     };
     const { data } = await clientAxios.get('/profile', config);
-    console.log(data)
+    //console.log(data)
     return { user: data, token };
   }
 );
